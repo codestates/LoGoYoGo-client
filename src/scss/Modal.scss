@@ -67,12 +67,12 @@
         }
 
         #WebPage {
-          background-image: url("../images/preview/web-sample3.png");
+          background-image: url("../images/preview/web-sample1.png");
           background-size: cover;
         }
 
         #FaceBook {
-          background-image: url("../images/preview/facebook2.png");
+          background-image: url("../images/preview/facebook1.png");
           background-size: cover;
         }
 
@@ -81,7 +81,7 @@
           background-size: cover;
         }
 
-        #wpage1 {
+        #web-page1 {
           width: 120px;
           height: 120px;
           position: relative;
@@ -89,7 +89,7 @@
           top: 25%;
         }
 
-        #fbook1 {
+        #face-book1 {
           transform: rotateX(24deg) rotateZ(-17deg);
           width: 73.5px;
           height: 73.5px;
@@ -98,7 +98,7 @@
           top: 36.8%;
         }
 
-        #bCard1 {
+        #b-card1 {
           transform: rotateX(47deg) rotateZ(-39deg);
           width: 100px;
           height: 100px;
@@ -106,7 +106,7 @@
           left: 23%;
           top: 20.5%;
         }
-        #bCard2 {
+        #b-card2 {
           transform: rotateX(46deg) rotateZ(-39.5deg);
           width: 70px;
           height: 70px;
@@ -172,24 +172,35 @@
         padding: 0 !important;
       }
 
-      #wpage1 {
+      #web-page1 {
         width: 30vw !important;
         height: 30vw !important;
+        position: relative;
+        left: 35% !important;
       }
 
-      #fbook1 {
-        width: 20vw !important;
-        height: 20vw !important;
+      #face-book1 {
+        width: 16vw !important;
+        height: 16vw !important;
+        position: relative;
+        left: 42.3% !important;
+        top: 37% !important;
       }
 
-      #bCard1 {
+      #b-card1 {
         width: 20vw !important;
         height: 20vw !important;
+        position: relative;
+        left: 27% !important;
+        top: 21.5% !important;
       }
 
-      #bCard2 {
-        width: 20vw !important;
-        height: 20vw !important;
+      #b-card2 {
+        width: 14vw !important;
+        height: 14vw !important;
+        position: relative;
+        left: 41% !important;
+        top: 35% !important;
       }
     }
   }
